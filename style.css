@@ -1,0 +1,109 @@
+
+.master-div{
+    
+    background-color: #e4b885;
+    
+}
+.home-div{
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+    
+    
+}
+.home-body{
+    background-color: #eedeca;
+}
+.second-home-div{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    flex-direction: row;
+    align-items: center;
+    font-size: 30px;
+    margin-bottom: 25px;
+    
+}
+.skill-div{
+    margin-left: 30px;
+}
+.second-home-img{
+    float: left;
+    height: 600px;
+    width: 600px;
+}
+svg{
+    height: 30px;
+    width: 50px;
+    
+}
+
+.myimg{
+    float: right;
+    height: 400px;
+    margin: 10px;
+    
+}
+.home-text{
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 10px;
+    
+}
+.home-intro{
+    margin-left: 150px;
+    margin-top: 100px;
+}
+.final-div-home{
+    display: flex;
+    
+    justify-content: space-evenly;
+    background-color: #d2af83;
+}
+.contact-home{
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+.contact-div{
+    margin-top : 20px
+}
+.my-skills{
+    margin-bottom: 10px;
+    margin-left: 180px;
+}
+.project-area{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+}
+.project-item{
+    margin: 10px;
+    background-color: #FFECD6;
+}
+.blog-main-div{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+
+}
+.blog-sub-div{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin-left:10%;
+    margin-top: 20px;
+    background-color: #ead5b9;
+    border: 5px dotted black;
+    padding: 10px;
+}
+.blog-text{
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
